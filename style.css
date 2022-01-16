@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: white url('./img/fundo.png') repeat-x;
+	font: 12px Arial, sans-serif ;
+}
+
+.center{
+	width: 1080px;
+	margin: 0 auto;
+}
+.header{
+	display: flex;
+}
+
+.logo{
+	width: 248px;
+	height: 21px;
+	margin-top: 50px;
+}
+
+.navegacao{
+	display: flex;
+}
+.header ::marker{
+	color: transparent;
+}
+nav{
+	margin: 5%;
+	margin-left: 8% ;
+}
+
+nav ul li a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.part-1{
+	display: flex;
+	margin-bottom: 20px;
+}
+.part-1 a img{
+	margin-right: 10px;
+}
+
+.part-2{
+	display: flex;
+}
+.part-2 a img{
+	margin-right: 10px;
+}
+
+.part-2 a {
+	text-decoration: none;
+}
+iframe{
+	width: 350px;
+	height: 200px;
+	margin-right: 10px;
+}
+
+.part-2 p{
+	color: rgb(153, 110, 35);
+	margin-bottom:5px ;
+}
+.part-2-txt{
+	background: rgb(205, 199, 181);
+	width: 400px;
+	text-align: center;
+}
+
+.part-2-txt p{
+	margin: 30px;
+}
+
+.part-2-txt .label{
+	margin: 30px;
+}
+
+.part-2-txt .qtd{
+	width: 100px;
+}
+
+.part-2-txt .botao{
+	background: black;
+	color: rgb(153, 110, 35);
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px 5px;
+
+}
+
+.part-3{
+	display: flex;
+}
+.part-3 p{
+	color: rgb(153, 110, 35);
+	margin-bottom: 20px;
+	margin-top: 20px;	
+}
+.part-3 a{
+	color: black;
+	text-decoration: none;
+}
+.part-3 li{
+	margin-bottom:10px ;
+}
+
+.part-3 .txt3{
+	color: black;
+	width: 250px;
+}
+
+.part-3-txt{
+	background: rgb(237, 229, 223);
+	width: 360px;
+	text-align: center;
+
+}
+.part-3 .imgs{
+	display: flex;
+}
+.part-3 .img3{
+		background: url('./img/fundo-foto.png') no-repeat center;
+}
+.part-3 .part-3-txt .imgs img{
+	margin: 13px;
+}
+.p1{
+	width: 360px;
+}
+.p2{
+	width: 360px;
+}
+
+footer{
+	background: black;
+	padding: 20px;
+	padding-left: 40%
+}
+
+.footer{
+	margin: 0;
+	color: white;
+}
+/*237 229 223
+205 199 1818*/
+
